@@ -12,10 +12,6 @@ let createUserUseCase: CreateUserUseCase;
 let authenticateUserUseCase: AuthenticateUserUseCase;
 let getBalanceUseCase: GetBalanceUseCase;
 
-interface IRequest {
-  user_id: string;
-}
-
 describe("lists all deposit and withdrawal operations", () => {
   beforeEach(() => {
     inMemoryUsersRepository = new InMemoryUsersRepository();

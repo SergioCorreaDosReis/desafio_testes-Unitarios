@@ -25,11 +25,11 @@ A rota recebe um token JWT pelo header da requisição e retorna as informaçõe
 
 A rota recebe um token JWT pelo header da requisição e retorna uma lista com todas as operações de depósito e saque do usuário autenticado e também o saldo total numa propriedade `balance`.
 
-### POST `/api/v1/statements/deposit`
+[OK] POST `/api/v1/statements/deposit`
 
 A rota recebe um token JWT pelo header e `amount` e `description` no corpo da requisição, registra a operação de depósito do valor e retorna as informações do depósito criado com status `201`.
 
-### POST `/api/v1/statements/withdraw`
+[OK] POST `/api/v1/statements/withdraw`
 
 A rota recebe um token JWT pelo header e `amount` e `description` no corpo da requisição, registra a operação de saque do valor (caso o usuário possua saldo válido) e retorna as informações do saque criado com status `201`.
 
