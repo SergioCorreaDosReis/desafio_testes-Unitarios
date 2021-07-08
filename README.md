@@ -33,6 +33,6 @@ A rota recebe um token JWT pelo header e `amount` e `description` no corpo da re
 
 A rota recebe um token JWT pelo header e `amount` e `description` no corpo da requisição, registra a operação de saque do valor (caso o usuário possua saldo válido) e retorna as informações do saque criado com status `201`.
 
-### GET `/api/v1/statements/:statement_id`
+[OK] GET `/api/v1/statements/:statement_id`
 
 A rota recebe um token JWT pelo header e o id de uma operação registrada (saque ou depósito) na URL da rota e retorna as informações da operação encontrada.
