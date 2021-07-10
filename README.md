@@ -55,6 +55,8 @@ A rota recebe um token JWT pelo header e o id de uma operação registrada (saqu
 
 [OK] GET `/api/v1/statements/:statement_id`
 
+---
+
 ## Teste de Integração - Supertest
 
 [X] POST `/api/v1/users`
@@ -65,8 +67,8 @@ A rota recebe um token JWT pelo header e o id de uma operação registrada (saqu
 
 [] GET `/api/v1/statements/balance`
 
-[] POST `/api/v1/statements/deposit`
+[X] POST `/api/v1/statements/deposit`
 
-[] POST `/api/v1/statements/withdraw`
+[X] POST `/api/v1/statements/withdraw`
 
 [] GET `/api/v1/statements/:statement_id`
