@@ -65,10 +65,10 @@ A rota recebe um token JWT pelo header e o id de uma operação registrada (saqu
 
 [X] GET `/api/v1/profile`
 
-[] GET `/api/v1/statements/balance`
+[X] GET `/api/v1/statements/balance`
 
 [X] POST `/api/v1/statements/deposit`
 
 [X] POST `/api/v1/statements/withdraw`
 
-[] GET `/api/v1/statements/:statement_id`
+[X] GET `/api/v1/statements/:statement_id`
