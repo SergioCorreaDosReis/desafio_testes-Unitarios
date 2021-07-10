@@ -57,7 +57,7 @@ A rota recebe um token JWT pelo header e o id de uma operação registrada (saqu
 
 ## Teste de Integração - Supertest
 
-[] POST `/api/v1/users`
+[X] POST `/api/v1/users`
 
 [] POST `/api/v1/sessions`
 
