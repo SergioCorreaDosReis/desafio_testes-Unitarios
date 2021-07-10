@@ -54,7 +54,7 @@ describe("Authenticate a user", () => {
   });
 
   afterAll(async () => {
-    // await connection.dropDatabase();
+    await connection.dropDatabase();
     await connection.close();
   });
 });
