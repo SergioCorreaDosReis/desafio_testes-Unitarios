@@ -14,14 +14,6 @@ describe("Create user", () => {
     // antes de criar as conexões executar as migrations
     await connection.runMigrations();
 
-    // const id = uuidv4();
-    // const password = await hash("admin", 8);
-
-    //   await connection.query(
-    //     `INSERT INTO USERS (id, name, email, password, created_at, updated_at)
-    //     VALUES ('${id}','admin','admin@admin.com','${password}','now()', 'now()')
-    //     `
-    //   );
   });
 
 
